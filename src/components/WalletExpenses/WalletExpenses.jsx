@@ -110,7 +110,9 @@ const WalletExpensesComponent = ({
           </h2>
           <button
             className="glassmorphism"
-            onClick={() => setIsIncomeModalOpen(true)}
+            onClick={() => setIsIncomeModalOpen(true)} style={{
+              backgroundColor:"green"
+            }}
           >
             + Add Income
           </button>
@@ -123,6 +125,10 @@ const WalletExpensesComponent = ({
           <button
             className="glassmorphism"
             onClick={() => setIsExpenseModalOpen(true)}
+            style={{
+              backgroundColor:"red",
+              
+            }}
           >
             + Add Expense
           </button>
