@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Expense Tracker - Peppermint
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple and intuitive **Expense Tracker** application built using modern web technologies like React, Vite, Tailwind CSS, and Recharts. The app helps you track your expenses, visualize them in charts, and manage your budget effectively.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add, edit, and delete expenses
+- Categorize expenses (e.g., food, transportation, etc.)
+- Visualize expense breakdown using a pie chart
+- Responsive design with Tailwind CSS
+- Unique ID generation for each expense using `uuid`
+- Modal for adding/editing expenses using `react-modal`
+- Charts for expense visualization using `recharts`
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: JavaScript library for building user interfaces
+- **Vite**: Next-generation front-end tool for fast development and build
+- **Tailwind CSS**: Utility-first CSS framework for fast UI development
+- **Recharts**: A composable charting library for React
+- **UUID**: Library for generating unique IDs
+- **ESLint**: JavaScript linter for maintaining code quality
+- **React Icons**: Icons for React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+```bash
+.
+├── public/                 # Public assets
+├── src/
+│   ├── components/         # React components
+│   ├── styles/             # Tailwind and custom styles
+│   ├── App.js              # Main app component
+│   └── index.js            # Entry point
+├── .eslintrc.js            # ESLint configuration
+├── tailwind.config.js      # Tailwind CSS configuration
+├── vite.config.js          # Vite configuration
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation - 
+Prerequisites
+Node.js (v14 or higher)
+npm or yarn package manager
+Setup
+Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+git clone https://github.com/yaxhxv/Expense-Tracker.git
+cd expensetracker
+Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+b
 
-### `npm run eject`
+npm install
+Run the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Copy code
+npm run dev
+Open your browser and navigate to http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Build
+To create a production build, run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+npm run build
+This will generate the build files in the dist folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Linting
+To check your code for any linting issues, run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+npm run lint
+Testing
+This project uses @testing-library/react for testing. You can run tests with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+npm test
+Deployment
+You can deploy this app to any static hosting service like Netlify or Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Build the project using:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm run build
+Deploy the generated dist folder.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Acknowledgments
+Vite
+React
+Recharts
+Tailwind CSS
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Key Sections:
+- **Project Overview**: Describes the features and tech stack.
+- **Installation and Setup**: Provides instructions for getting the project running locally.
+- **Build and Linting**: Includes steps to build and lint the project.
+- **Deployment**: Outlines how to deploy the app to a platform like Netlify or Vercel.
+- **License and Acknowledgments**: Covers licensing and resources used.
+
