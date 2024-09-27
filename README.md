@@ -1,4 +1,4 @@
-# Expense Tracker
+# Expense Tracker - Peppermint
 
 A simple and efficient **Expense Tracker** built using **React** and **Recharts** for tracking and visualizing your expenses.
 
